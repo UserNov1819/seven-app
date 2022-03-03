@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 450vh;
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 567px) {
+    .navbar {
+        background-color: #5200FF;
+        width: 100%;
+        padding: 15px 0px;
+        position: fixed;
+        top: 0;
+    }
+    .nav__brand img{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+    }
+    .fx__menu {
+        background-color: #1c0254;
+        width: 100%;
+        padding: 15px 0px;
+        position: fixed;
+        bottom: 0;
+        z-index: 10000;
+    }
+    .menu__links {
+        display: flex;
+        justify-content: space-between;
+        max-width: 420px;
+        margin: 0px auto;
+        padding: 0px 25px;
+    }
+    .menu__links img {
+        width: 50px;
+        height: 50px;
+    }
+    .block:nth-child(1) {
+        background-color: blue;
+        height: 70vh;
+    }
+    .block:nth-child(2) {
+        background-color: rgb(255, 255, 0);
+        height: 80vh;
+    }
+    .block:nth-child(3) {
+        background-color: rgb(21, 255, 0);
+        height: 120vh;
+    }
+}
